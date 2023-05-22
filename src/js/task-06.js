@@ -5,10 +5,10 @@ validationInput.addEventListener('blur', () => {
   const expectedLength = validationInput.dataset.length;
 
   if (enteredValue.length === +expectedLength) {
-        validationInput.classList.remove('invalid');
-        validationInput.classList.add('valid');
+    validationInput.classList.remove('invalid');
+    validationInput.classList.add('valid');
   } else {
-        validationInput.classList.remove('valid');
-        validationInput.classList.add('invalid');
+    validationInput.classList.remove('valid');
+    validationInput.classList.add('invalid');
   }
 });
